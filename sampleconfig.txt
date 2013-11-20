@@ -1,0 +1,9 @@
+[HOMO-BLAST]
+seed_seq = "/projects/sate7/kk8/blast/sequences/deadseqs.in"
+working_dir = "/projects/sate7/kk8/blast/sequences/dead/"
+
+[PSI-BLAST]
+e_value = 1e-100
+num_iterations = 3
+outfmt = 6
+
