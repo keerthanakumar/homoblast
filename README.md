@@ -10,10 +10,8 @@ Requires biopython for generating fasta file.
 
 Look out to understand how this should be run for sample config.txt file.
 
-
------------
 Competely added to repo:
-	NONE :(
+	1. Parse the config file
 At least partial implementation done:
 	1. Get seed sequences (Current tested only for accession numbers)
 	2. Make seed seq-in files in working directory

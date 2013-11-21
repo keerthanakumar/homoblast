@@ -1,9 +1,11 @@
 [HOMO-BLAST]
-seed_seq = "/projects/sate7/kk8/blast/sequences/deadseqs.in"
-working_dir = "/projects/sate7/kk8/blast/sequences/dead/"
+seed_seq = /projects/sate7/kk8/blast/sequences/deadseqs.in
+return_dir = /projects/sate7/kk8/blast/sequences/dead/
+temp_dir = /projects/sate7/kk8/blast/sequences/dead/temp/
+keeptemp = True
 
 [PSI-BLAST]
 e_value = 1e-100
 num_iterations = 3
 outfmt = 6
-
+max_target_seqs = 20000 
