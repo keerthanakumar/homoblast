@@ -1,7 +1,6 @@
 import sys
-from parserconfig import ParseConfig
-from parserseed import ParseSeed
-from blastsequence import BlastSequence
+from parser import ParseConfig, ParseSeed
+from jobs import BlastSequence
 
 config = ParseConfig(sys.argv[1])
 tempdir = config.get_homoblast_settings()['temp_dir']
