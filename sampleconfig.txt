@@ -1,7 +1,7 @@
 [HOMO-BLAST]
-seed_seq = /projects/sate7/kk8/blast/sequences/deadseqs.in
-return_dir = /projects/sate7/kk8/blast/sequences/dead/
-temp_dir = /projects/sate7/kk8/blast/sequences/dead/temp/
+seed_seq = /home/kk24268/blast/sequences/yeast/yeast.seq 
+return_dir = /home/kk24268/blast/sequences/run
+temp_dir = /home/kk24268/blast/sequences/temp
 keeptemp = True
 
 [PSI-BLAST]
@@ -9,3 +9,10 @@ e_value = 1e-100
 num_iterations = 3
 outfmt = 6
 max_target_seqs = 20000 
+
+[ENTREZ]
+email = keerthana.kumar@gmail.com
+fasta_file_name = yeast
+
+[PASTA]
+pasta_config_file = /home/kk24268/blast/sequences/run/yeast.txt
