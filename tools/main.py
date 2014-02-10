@@ -12,4 +12,4 @@ for seed in seeds.get_seed_ids():
 	runblast.psiblast()
 combine = CombineBlast(config, names)
 combine.makefastafile()
-RunPasta(config)
+#RunPasta(config)
