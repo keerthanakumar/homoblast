@@ -22,7 +22,7 @@ class PsiBlast:
 		#outfile = '-out ' + outfile
 		# Figuring out how subprocessors work
 		# Need to set up jobs and multithread
-		subprocess.call(["/home/kk24268/blast/ncbi-blast-2.2.28+/bin/psiblast", "-db","nr","-out", outfile, "-query", infile, "-num_iterations", self.settings['num_iterations'], "-evalue", self.settings['e_value'], "-outfmt", self.settings['outfmt']])
+		subprocess.call([self.settings['executable'], "-db","nr","-out", outfile, "-query", infile, "-num_iterations", self.settings['num_iterations'], "-evalue", self.settings['e_value'], "-outfmt", self.settings['outfmt']])
 
 class CombineBlast:
 	def __init__(self, config, seednames):

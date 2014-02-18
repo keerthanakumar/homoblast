@@ -5,6 +5,8 @@ temp_dir = /home/kk24268/blast/sequences/temp
 keeptemp = True
 
 [PSI-BLAST]
+executable = /home/kk24268/blast/ncbi-blast-2.2.28+/bin/psiblast
+nr_database = /home/kk24268/blast/nr
 e_value = 1e-100
 num_iterations = 3
 outfmt = 6

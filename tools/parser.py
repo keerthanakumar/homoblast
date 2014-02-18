@@ -53,7 +53,7 @@ class ParseConfig:
 		pasta = 'PASTA'
 		#TODO:Set up option dictionay with defaults
 		hboptions = ['seed_seq', 'temp_dir', 'return_dir',' keeptemp']
-		psioptions = ['e_value', 'num_iterations', 'outfmt', 'max_target_seqs']
+		psioptions = ['executable','nr_database','e_value', 'num_iterations', 'outfmt', 'max_target_seqs']
 		entrezoptions = ['email','fasta_file_name']
 		pastaoptions = ['pasta_config_file']
 		self.hb_opt = {}
