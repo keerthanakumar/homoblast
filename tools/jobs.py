@@ -44,7 +44,8 @@ class CombineBlast:
 			f = open(out, "r")
 			for line in f:
 				line = line.strip()
-				acc = line.split()[1].split("|")[3]
+				if "gi" in line:
+					acc = line.split()[1].split("|")[3]
 				if len(acc) > 5:
 					self.accs.add(acc)
 			f.close()
